@@ -1,0 +1,28 @@
+nav {
+  width: 5%;
+  float: right;
+  color: #000;
+  text-align: center;
+  height: 100%;
+
+  img {
+    display: inline-block;
+  }
+
+  p {
+    span {
+      color: $grey;
+    }
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-top: 400px;
+    width: 160px;
+    font-family: cormorant;
+    font-weight: bold;
+    color: $dark;
+  }
+}
+
