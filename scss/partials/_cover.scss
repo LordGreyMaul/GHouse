@@ -1,0 +1,20 @@
+.container {
+
+  background-image: url("../img/cover.jpg");
+  min-height: 100%;
+  min-width: 1024px;
+
+  width: 80%;
+  height: auto;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  .cover {
+    text-align: center;
+    color: $light;
+    font-family: cormorant;
+    @include heading(100px , bold);
+  }
+}
