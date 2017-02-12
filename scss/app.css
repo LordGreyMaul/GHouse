@@ -1,29 +1,69 @@
 @font-face {
   font-family: cormorant;
-  src: url("/fonts/cormorant/Cormorant-regular.otf"); }
+  src: url("../fonts/cormorant/Cormorant-regular.otf"); }
+@font-face {
+  font-family: cormorant;
+  src: url("../fonts/cormorant/Cormorant-bold.otf");
+  font-weight: bold; }
 @font-face {
   font-family: montserrat;
-  src: url("/fonts/montserrat/Montserrat-Regular.otf"); }
+  src: url("../fonts/montserrat/Montserrat-Regular.otf"); }
 @font-face {
   font-family: open-sans;
-  src: url("/fonts/open-sans/OpenSans-Regular.ttf"); }
+  src: url("../fonts/open-sans/OpenSans-Regular.ttf"); }
 @font-face {
   font-family: raleway;
-  src: url("/fonts/raleway/Raleway-Regular.ttf"); }
+  src: url("../fonts/raleway/Raleway-Regular.ttf"); }
+nav {
+  width: 5%;
+  float: right;
+  color: #000;
+  text-align: center;
+  height: 100%; }
+  nav img {
+    display: inline-block; }
+  nav p {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-top: 400px;
+    width: 160px;
+    font-family: cormorant;
+    font-weight: bold;
+    color: #2f2f2f; }
+    nav p span {
+      color: #a9a9a9; }
+
 .container {
   background-image: url("../img/cover.jpg");
   min-height: 100%;
   min-width: 1024px;
-  width: 80%;
+  width: 95%;
   height: auto;
   position: fixed;
   top: 0;
   left: 0; }
+  .container .logo img {
+    width: 55px;
+    height: 75px;
+    padding: 10px; }
   .container .cover {
     text-align: center;
     color: #ffffff;
     font-family: cormorant;
     font-size: 100px;
-    font-weight: bold; }
+    font-weight: bold;
+    line-height: 145px; }
+    .container .cover p {
+      font-family: montserrat;
+      font-size: 14px;
+      line-height: normal; }
+    .container .cover .branding {
+      font-family: cormorant;
+      font-weight: bold;
+      font-size: 16px;
+      text-transform: uppercase; }
 
 /*# sourceMappingURL=app.css.map */

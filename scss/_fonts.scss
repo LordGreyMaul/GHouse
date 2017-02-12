@@ -1,19 +1,24 @@
 @font-face {
   font-family: cormorant;
-  src: url("/fonts/cormorant/Cormorant-regular.otf");
+  src: url("../fonts/cormorant/Cormorant-regular.otf");
+}
+@font-face {
+  font-family: cormorant;
+  src: url("../fonts/cormorant/Cormorant-bold.otf");
+  font-weight: bold;
 }
 
 @font-face {
   font-family: montserrat;
-  src: url("/fonts/montserrat/Montserrat-Regular.otf");
+  src: url("../fonts/montserrat/Montserrat-Regular.otf");
 }
 
 @font-face {
   font-family: open-sans;
-  src: url("/fonts/open-sans/OpenSans-Regular.ttf");
+  src: url("../fonts/open-sans/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-family: raleway;
-  src: url("/fonts/raleway/Raleway-Regular.ttf");
+  src: url("../fonts/raleway/Raleway-Regular.ttf");
 }

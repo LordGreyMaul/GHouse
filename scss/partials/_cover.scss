@@ -4,17 +4,38 @@
   min-height: 100%;
   min-width: 1024px;
 
-  width: 80%;
+  width: 95%;
   height: auto;
 
   position: fixed;
   top: 0;
   left: 0;
 
+  .logo {
+    img {
+    width:55px;
+    height: 75px;
+    padding: 10px;
+    }
+  }
+
   .cover {
     text-align: center;
     color: $light;
     font-family: cormorant;
     @include heading(100px , bold);
+    line-height: 145px;
+
+    p {
+      font-family: montserrat;
+      font-size: 14px;
+      line-height: normal;
+    }
+    .branding {
+      font-family: cormorant;
+      font-weight: bold;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
   }
 }

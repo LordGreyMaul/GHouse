@@ -1,5 +1,7 @@
 // Colors
 $light: #ffffff;
+$grey: #a9a9a9;
+$dark: #2f2f2f;
 
 //Mixins
 @import "mixins";
@@ -8,4 +10,5 @@ $light: #ffffff;
 @import "fonts";
 
 //Sections
+@import "nav";
 @import "partials/cover";
