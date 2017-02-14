@@ -2,6 +2,10 @@
 $light: #ffffff;
 $grey: #a9a9a9;
 $dark: #2f2f2f;
+$backGrey: #f3f3f3;
+
+// Grid
+@import "grid";
 
 //Mixins
 @import "mixins";
@@ -13,3 +17,4 @@ $dark: #2f2f2f;
 @import "nav";
 @import "partials/cover";
 @import "partials/project";
+@import "partials/statement";

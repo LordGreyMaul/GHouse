@@ -1,3 +1,78 @@
+.row:after {
+  display: block;
+  clear: both;
+  content: ''; }
+
+.row + .row {
+  margin-top: 3%; }
+
+[class^="col-"] {
+  float: left;
+  margin-right: 3%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  [class^="col-"]:last-child {
+    margin-right: 0%; }
+
+/*
+.col-1  { width:5.583333333333333%; }
+.col-2  { width:14.16666666666667%; }
+.col-3  { width:22.75%; }
+.col-4  { width:31.33333333333333%; }
+.col-5  { width:39.91666666666667%; }
+.col-6  { width:48.5%; }
+.col-7  { width:57.08333333333333%; }
+.col-8  { width:65.66666666666666%; }
+.col-9  { width:74.25%; }
+.col-10 { width:82.83333333333333%; }
+.col-11 { width:91.41666666666666%; }
+.col-12 { width:100%; }
+*/
+.col-1 {
+  width: 5.58333%; }
+
+.col-2 {
+  width: 14.16667%; }
+
+.col-3 {
+  width: 22.75%; }
+
+.col-4 {
+  width: 31.33333%; }
+
+.col-5 {
+  width: 39.91667%; }
+
+.col-6 {
+  width: 48.5%; }
+
+.col-7 {
+  width: 57.08333%; }
+
+.col-8 {
+  width: 65.66667%; }
+
+.col-9 {
+  width: 74.25%; }
+
+.col-10 {
+  width: 82.83333%; }
+
+.col-11 {
+  width: 91.41667%; }
+
+.col-12 {
+  width: 100%; }
+
+.container {
+  width: 1220px;
+  margin: 0 auto;
+  padding: 50px 0 50px 0; }
+
+.container-full {
+  width: 100%; }
+
 @font-face {
   font-family: cormorant;
   src: url("../fonts/cormorant/Cormorant-regular.otf"); }
@@ -40,55 +115,69 @@ body {
   display: block;
   margin: 0; }
 
-.container {
+.splash {
   background-image: url("../img/cover.jpg");
   background-size: cover;
   height: 100vh; }
-  .container .full-hieght {
+  .splash .full-hieght {
     height: 100vh; }
-  .container .logo img {
+  .splash .logo img {
     width: 55px;
     height: 75px;
     padding: 10px; }
-  .container .cover {
+  .splash .cover {
     text-align: center;
     color: #ffffff;
     font-family: cormorant;
     font-size: 100px;
     font-weight: bold;
     line-height: 145px; }
-    .container .cover p {
+    .splash .cover p {
       font-family: montserrat;
       font-size: 14px;
       line-height: normal; }
-    .container .cover .branding {
+    .splash .cover .branding {
       font-family: cormorant;
       font-weight: bold;
       font-size: 16px;
       text-transform: uppercase; }
 
 .project {
-  width: 100%;
-  height: 100%;
-  padding: 15px;
-  margin-left: 2%;
   text-align: center; }
   .project h1 {
     font-family: cormorant;
     font-size: 36px;
     font-weight: bold;
-    text-align: left;
-    margin-left: 3%; }
+    text-align: left; }
   .project .boxer {
-    width: 30%;
-    height: 100%;
-    padding: 0;
-    margin-left: 3%;
     display: inline-block;
     text-align: left;
     font-family: montserrat;
     font-size: 14px; }
     .project .boxer ul li {
       list-style: none; }
+
+.statement {
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 26%, #ffffff 26%, #ffffff 26%, #ffffff 26%, #ffffff 26%, #f3f3f3 26%, #f3f3f3 42%, #f3f3f3 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 26%, #ffffff 26%, #ffffff 26%, #ffffff 26%, #ffffff 26%, #f3f3f3 26%, #f3f3f3 42%, #f3f3f3 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 26%, #ffffff 26%, #ffffff 26%, #ffffff 26%, #ffffff 26%, #f3f3f3 26%, #f3f3f3 42%, #f3f3f3 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$light', endColorstr='$backGrey',GradientType=0 );
+  /* IE6-9 */
+  height: 550px; }
+  .statement .text-boxed {
+    margin-top: 250px;
+    margin: 0 auto; }
+    .statement .text-boxed h1 {
+      font-size: 36px;
+      font-weight: bold;
+      font-family: cormorant;
+      vertical-align: middle; }
+    .statement .text-boxed p {
+      font-family: cormorant; }
 
 /*# sourceMappingURL=app.css.map */

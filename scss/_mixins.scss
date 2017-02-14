@@ -3,9 +3,3 @@
   font-weight: $weight;
 }
 
-@mixin box ($width, $height, $padding, $margin){
-  width: $width;
-  height: $height;
-  padding: $padding;
-  margin-left: $margin;
-}

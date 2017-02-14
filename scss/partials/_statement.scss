@@ -1,0 +1,20 @@
+.statement {
+  background: $light; /* Old browsers */
+  background: -moz-linear-gradient(top, $light 0%, $light 26%, $light 26%, $light 26%, $light 26%, $light 26%, $backGrey 26%, $backGrey 42%, $backGrey 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, $light 0%,$light 26%,$light 26%,$light 26%,$light 26%,$light 26%,$backGrey 26%,$backGrey 42%,$backGrey 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, $light 0%,$light 26%,$light 26%,$light 26%,$light 26%,$light 26%,$backGrey 26%,$backGrey 42%,$backGrey 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$light', endColorstr='$backGrey',GradientType=0 ); /* IE6-9 */
+  height: 550px;
+  .text-boxed {
+    margin-top: 250px;
+    margin: 0 auto;
+    h1 {
+    @include heading(36px, bold);
+    font-family: cormorant;
+    vertical-align: middle;
+    }
+    p {
+      font-family: cormorant;
+    }
+  }
+}
