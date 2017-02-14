@@ -1,0 +1,22 @@
+.project {
+  @include box(100%, 100%, 15px , 2%);
+  text-align: center;
+  h1 {
+    font-family: cormorant;
+    @include heading(36px, bold);
+    text-align: left;
+    margin-left: 3%;
+  }
+
+  .boxer {
+    @include box(30%, 100% , 0, 3%);
+    display: inline-block;
+    text-align: left;
+    font-family: montserrat;
+    font-size: 14px;
+
+    ul li{
+      list-style: none;
+    }
+  }
+}
